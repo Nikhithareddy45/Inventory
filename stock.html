@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory</title>
+    <link rel="stylesheet" href="src/css/stock.css">
+</head>
+<body>
+    <div class="store-container">
+        <div class="store-details">
+            <h1>Stock Storing</h1>
+            <div class="categories">
+               <div class="label-name">
+                <label for="ItemName">Name of the Item: </label>
+                <input type="text" name="ItemName" id="ItemName">
+               </div>
+                <div class="label-categories">
+                    <label for="categories">Categories:</label>
+                <select name="categories" id="categories">
+                    <option value="Kilograms">Kgs</option>
+                    <option value="Grams">Grams</option>
+                    <option value="Litres">Lts</option>
+                    <option value="Dozens">Dzs</option>
+                </select>
+                </div>
+                <div class="buttons">
+                    <button type="button">Add to Category</button>
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
